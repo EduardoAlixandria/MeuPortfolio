@@ -12,6 +12,9 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
+    position: fixed; /* Fixa o cabeçalho no topo */
+    width: 100%; /* Ocupa toda a largura da tela */
+    top: 0; /* Coloca o cabeçalho no topo */
 }
 
 h1 {
@@ -21,6 +24,7 @@ h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0; /* Remove o espaço entre o cabeçalho e a lista de links */
 }
 
 nav ul li {
@@ -36,4 +40,6 @@ nav ul li a {
 /* Estilos do conteúdo */
 section {
     padding: 20px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 80px; /* Adiciona espaço acima do conteúdo para evitar que ele fique oculto sob o cabeçalho */
 }
